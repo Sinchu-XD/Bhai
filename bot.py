@@ -14,6 +14,9 @@ import subprocess
 import concurrent.futures
 
 
+TELEGRAM_TOKEN = "8183704304:AAFs1-HYh6mex6lEci70QK4STfdEMH2EKlw"
+NUM = ABHI DDOS
+
 #Telegram token
 token = os.getenv('TELEGRAM_TOKEN')
 bot_number = os.getenv('NUM')
